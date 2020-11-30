@@ -1,0 +1,22 @@
+.copyright-footer {
+    background-color: $primary-color;
+    p {
+        color: $white;
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    a {
+        color: $black;
+    }
+    a:hover {
+        color: $white;
+        text-decoration: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .copyright-footer {
+        h6 {
+            font-size: smaller;
+        }
+    }
+}

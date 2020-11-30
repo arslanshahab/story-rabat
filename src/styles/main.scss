@@ -1,0 +1,40 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+//theme styles
+$primary-color: #003B5C;
+$secondary-color: #bd8a7e;
+$white: #ffffff;
+$black: #000000;
+$mine-shaft:#303030;
+$brandy-rose: #bd8a7e;
+$deep-sea-green: #07585C;
+$cod-gray: #101010;
+$concrete: #f2f2f2;
+$bondi-blue: #0194A4;
+$astraunat-blue:#003B5C;
+$nile-blue: #183254;
+
+//containers
+@import "./containers/Home";
+
+//components
+@import "./components/MainHeader";
+@import "./components/Navbar";
+@import "./components/SearchForm";
+@import "./components/DescriptionCard";
+@import "./components/AboutCard";
+@import "./components/CopyrightFooter";
+@import "./components/ServicesTabs";
+@import "./components/RoomSliderWrapper";
+@import "./components/GuestReviews";
+@import "./components/BottomNavigator";
+
+//theming
+.btn-theme {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: $primary-color;
+}

@@ -1,0 +1,25 @@
+.description-card-wrapper{
+    background-color: $primary-color;
+    color: #ffffff;
+    h1{
+        font-size: 66px;
+        font-family: 'Lora', serif;
+        color: $secondary-color;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 200;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        font-size: 20px;
+        font-weight: 200;
+        li {
+            display: block;
+        }
+        li:before {
+            content: "• ";
+        }
+    }
+}

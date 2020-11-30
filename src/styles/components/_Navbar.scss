@@ -1,0 +1,38 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    color: #fff;
+    padding: 1rem;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    img {
+        width: 100px;
+    }
+    ul {
+        display: inline-block;
+        list-style-type: none;
+        li {
+            display: flex;
+            align-items: center;
+            font-size: small;
+        }
+        a{
+            color:white;
+            text-decoration: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        img {
+            width: 70px;
+        }
+        ul {
+            display: none;
+        }
+    }
+    
+}

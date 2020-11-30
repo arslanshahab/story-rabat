@@ -1,0 +1,27 @@
+.about-card-wrapper{
+    background-color: $cod-gray;
+    h1{
+        font-size: 60px;
+        font-family: 'Lora', serif;
+        color: $secondary-color;
+    }
+    p{
+        font-size: 20px;
+        font-weight: 300 !important;
+        color: #ffffff;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-card-wrapper{
+        padding: 1rem !important;
+        h1{
+            font-size: 2rem;
+        }
+        p{
+            font-size: smaller;
+            font-weight: 400 !important;
+            text-align: justify !important;
+        }
+    }   
+}

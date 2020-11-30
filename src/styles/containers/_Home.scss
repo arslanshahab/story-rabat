@@ -1,0 +1,53 @@
+.rooms-wrapper {
+    background: $concrete;
+    .title {
+        font-style: italic;
+        font-size: 50px;
+        font-weight: 700;
+        color: $secondary-color;
+        font-family: "Lora", serif;
+    }
+    .room-item {
+        margin-bottom: 2.5rem;
+        img {
+            border-radius: 4px;
+        }
+        .item-title {
+            color: $secondary-color;
+            font-size: 50px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            color: $primary-color;
+            font-size: 20px;
+            li {
+                display: block;
+                padding-bottom: 1rem;
+            }
+            li:before {
+                content: "•";
+            }
+        }
+        .room-info-wrapper {
+            border-top: 1px solid $secondary-color;
+            border-bottom: 1px solid $secondary-color;
+            h1,h2,h3{
+                color: $secondary-color !important;
+                font-family: 'Montserrat', serif !important;
+                font-style: italic;
+            }
+            .MuiPaper-elevation1 {
+                box-shadow: none;
+            }
+        }
+        .btn-book-room {
+            border: none;
+            background-color: $primary-color;
+            color: $white;
+        }
+        .rate {
+            color: $primary-color;
+        }
+    }
+}
